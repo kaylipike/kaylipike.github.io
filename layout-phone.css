@@ -1,0 +1,18 @@
+main {
+    grid-template-columns: 100%;
+}
+
+.form-page main, body {
+    display: block; 
+}
+
+select {
+    max-width: 24ch;
+    word-wrap: break-word; 
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+nav {
+    padding: 8%;
+}

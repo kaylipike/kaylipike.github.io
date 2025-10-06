@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+header {
+    grid-column: span 2; 
+}
+
+nav {
+    grid-column: span 2;
+}
+
+main {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.table-section {
+    grid-column: span 2; 
+}
+
+.form section {
+    grid-column: span 2;
+}
+
+label[for^=txt] {
+    display: block;
+}
+
+footer {
+    grid-column: span 2;
+}
+
+main>h1 {
+    grid-column: span 2;
+}
+
+.sql main > pre, main {
+    grid-column: span 2;
+}
